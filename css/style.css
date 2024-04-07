@@ -1,0 +1,944 @@
+/* ---------page d'acccueil------ */
+
+* {
+    box-sizing: initial !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    background-color: rgb(79, 152, 56);
+    ;
+    color: white;
+    height: 20px;
+    padding: 5px 25px;
+}
+
+.topbarAdmin {
+    background-color: rgb(79, 152, 56);
+    ;
+    color: white;
+    height: 30px;
+    padding: 5px 25px;
+}
+
+.topbar p {
+    font-size: 14px;
+}
+
+.footerAdmin {
+    background-color: rgb(79, 152, 56);
+    ;
+    color: white;
+    height: 21px;
+    font-size: 12px
+}
+
+.bloc1 {
+    width: 100%;
+    height: 66px;
+    background-color: #333333;
+}
+
+.af {
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+
+.item-d {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.item-d:hover {
+    text-decoration: none;
+    color: rgba(88, 186, 58, .75);
+    font-weight: bold;
+}
+
+.af:hover {
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+
+.logo p {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+.logo-a {
+    text-decoration: none;
+    color: white
+}
+
+.logo-a:hover {
+    text-decoration: none;
+    color: white
+}
+
+.logo-a span {
+    color: rgba(88, 186, 58, .75)
+}
+
+
+/* ----menu---- */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.colz {
+    padding-top: 15px
+}
+
+.lien {
+    float: right;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: white;
+    /* font-weight: bolder; */
+    text-decoration: none;
+}
+
+.lien:hover {
+    color: rgba(88, 186, 58, .75);
+    text-decoration: none;
+}
+
+
+/* -------recherche ------- */
+
+.rech {
+    padding-top: 23px;
+    padding-left: 17px;
+}
+
+.rech img {
+    width: 8.5%;
+}
+
+.boutsearch {
+    width: 138px;
+    height: 21px;
+}
+
+
+/* ---- creation annonce ---- */
+
+.annonc {
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(88, 186, 58, .75);
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    padding: 7px 20px;
+    border-radius: 28px;
+}
+
+.ch1 {
+    width: 300px;
+    height: 29px;
+    color: grey;
+}
+
+.ch2 {
+    width: 302px;
+    height: 33px;
+    color: grey;
+}
+
+.ch3 {
+    width: 299px;
+    height: 72px;
+    color: grey;
+}
+
+.btnCreer {
+    color: white;
+    background-color: #4f9838;
+    border: none;
+    padding: 7px 122px;
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+
+/* ------ connexion et inscription  ------ */
+
+.usi {
+    font-size: 13px;
+}
+
+.conx {
+    display: inline;
+    padding: 0px 4px;
+    color: white;
+    text-decoration: none;
+}
+
+.conx:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.carl {
+    bottom: 40% !important;
+}
+
+
+/* ----contact ---- */
+
+.icone {
+    width: 7%;
+    padding-left: 45px;
+}
+
+.parag1 {
+    display: inline-block;
+    color: #ffff;
+    padding-top: 2px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* ---- a propos ---- */
+
+.titre1 {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+.bloc2 {
+    border-top: solid rgba(88, 186, 58, .75) 4px;
+    width: 350px;
+    margin: auto;
+}
+
+.parag2 {
+    text-align: center;
+    color: #111;
+    font-weight: 500;
+}
+
+.iconetracteur {
+    color: rgba(88, 186, 58, .75);
+    width: 5%;
+    padding-left: 48%;
+}
+
+
+/********Profil*******/
+
+.blocProfil {
+    width: 700px;
+    height: 220px;
+    text-align: center;
+    margin-left: 226px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px 0px #c3c3c3;
+}
+
+.pageProfil {
+    background-color: #f2f2f2;
+}
+
+.imgUser {
+    font-size: 53px;
+    padding-top: 0px;
+    text-align: center;
+    color: #333333;
+}
+
+.modifProfilbtn {
+    color: white;
+    border: none;
+    background-color: #4f9838;
+    padding: 5px 23px;
+}
+
+.blocProfil h6 {
+    margin-top: -17px;
+}
+
+.blocProfil h5 {
+    margin-top: -2px;
+    font-size: 16px;
+    color: #6f6f6f;
+}
+
+.blocAnnonceProfil {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px 0px #c3c3c3;
+    margin-top: 20px;
+    margin-right: 135px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.blocCommandeProfil {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px 0px #c3c3c3;
+    margin-top: 20px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.blocAnnonceProfil h6 {
+    padding-top: 10px;
+    padding-left: 11px;
+}
+
+.blocAnnonceProfil .dtCmd {
+    margin-top: -20px;
+}
+
+.blocAnnonceProfil .nomCmd {
+    margin-top: -16px;
+}
+
+.blocAnnonceProfil .caCmd {
+    margin-top: -21px;
+}
+
+.blocAnnonceProfil .desCmd {
+    margin-top: -16px;
+}
+
+.blocAnnonceProfil .adr {
+    margin-top: -16px;
+}
+
+.blocAnnonceProfil .updt {
+    text-align: right;
+}
+
+.btnModAnnonce {
+    color: #4f9838;
+    background-color: #ffffff;
+    padding: 7px 14px;
+    margin-right: 15px;
+    border: 1px solid;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.btnModAnnonce:hover {
+    color: #ffffff;
+    background-color: #4f9838;
+    text-decoration: none
+}
+
+.blocCommandeProfil h6 {
+    padding-top: 10px;
+    padding-left: 11px;
+}
+
+
+/* ----- partie Materiel ------ */
+
+.materiel {
+    margin: auto;
+    background-color: #f2f2f2;
+    Overflow: auto;
+    width: 100%;
+    height: 880px;
+}
+
+.galerie {
+    margin: 30px;
+    border: 2px solid #cccccc;
+    float: left;
+    width: 300px;
+    padding-right: 80px;
+    height: 300px;
+}
+
+.galerie img {
+    width: 120%;
+    height: 220px;
+    padding-left: 10px;
+}
+
+.galerie p {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bolder;
+    padding-left: 40px;
+}
+
+.boutton1 {
+    float: right;
+    margin-right: 140px;
+    font-weight: bolder;
+    font-size: 17px;
+    background-color: white;
+    width: 12%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(79, 152, 56);
+    border: none;
+    padding: 7px 20px;
+    border-radius: 28px;
+}
+
+.as {
+    max-width: 22% !important;
+    padding-bottom: 15px;
+}
+
+.prLouer {
+    margin-bottom: 2px;
+    margin-top: -7px;
+}
+
+.nomLouer {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.adrLouer {
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.catLouer {
+    padding-left: 15px;
+    margin-top: -7px;
+}
+
+.dscrpLouer {
+    padding-left: 15px;
+    color: grey;
+    margin-top: -13px;
+    margin-bottom: 7px;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+.bl {
+    border: 1px solid #eaeaea
+}
+
+.btn-louer {
+    width: 230px
+}
+
+
+/* ------ partie contact ---- */
+
+#contact {
+    background-color: #f2f2f2;
+    height: 450px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 13px;
+    font-weight: bolder;
+    padding-right: 30px;
+}
+
+.for1 {
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 25px;
+}
+
+#message {
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+
+/* -----partie footer ------  */
+
+.blocfin {
+    width: 100%;
+    height: 230px;
+    background-color: #333333;
+    border-bottom: solid rgba(88, 186, 58, .75) 10px;
+}
+
+.blocfin h3 {
+    padding-top: 13px;
+    text-align: center;
+    color: rgba(88, 186, 58, .75);
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 70px;
+}
+
+.lien2 {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 220px;
+    font-weight: bold;
+}
+
+.lien2:hover {
+    color: rgba(88, 186, 58, .75);
+    text-decoration: none;
+}
+
+.copyright {
+    color: white;
+    padding-left: 20px;
+    font-size: 13px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.parag3 {
+    display: inline-block;
+    color: #ffff;
+    padding-top: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 120px;
+}
+
+
+/* ----suiver nous--- */
+
+.fb2 {
+    width: 30px;
+    height: 30px;
+    padding-left: 130px;
+}
+
+.parag4 {
+    display: inline-block;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* -------page materiel------- */
+
+.adrRech {
+    height: 35px;
+    color: grey
+}
+
+.nomRech {
+    height: 31px
+}
+
+.rechBtn {
+    color: white;
+    width: 130px;
+    border: none;
+    background-color: #4f9838;
+    height: 34px;
+}
+
+.btnAjAdm {
+    background-color: #4f9838;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 10px 23px;
+    border-radius: 31px;
+}
+
+.btnAjAdm:hover {
+    background-color: #4f9838;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 10px 23px;
+    border-radius: 31px;
+}
+
+.mobtnAdmini {
+    color: #4f9838;
+    border: 1px solid;
+    padding: 3px 9px;
+}
+
+.mobtnAdmini:hover {
+    background-color: #4f9838;
+    color: white;
+    border: 1px solid;
+    padding: 5px 9px;
+    text-decoration: none;
+}
+
+.supbtnAdmini {
+    color: #bb1616;
+    border: 1px solid;
+    padding: 3px 9px;
+}
+
+.supbtnAdmini:hover {
+    background-color: #bb1616;
+    color: white;
+    border: 1px solid;
+    padding: 5px 9px;
+    text-decoration: none;
+}
+
+.colorvert {
+    color: rgb(64, 123, 45);
+}
+
+.colorvert:hover {
+    color: rgb(64, 123, 45);
+}
+
+.colorouge {
+    color: #bb1616
+}
+
+.colorouge:hover {
+    color: #bb1616
+}
+
+.cnxBtnC {
+    color: white;
+    width: 514px;
+    border: none;
+    background-color: #4f9838;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.cnxBtnCAd {
+    color: white;
+    width: 522px;
+    border: none;
+    background-color: #4f9838;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.materiel2 {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 2400px;
+}
+
+.galerie2 {
+    margin: 30px;
+    border: 2px solid #cccccc;
+    float: left;
+    width: 300px;
+    padding-right: 80px;
+    height: 470px;
+}
+
+.galerie2 img {
+    width: 120%;
+    height: 210px;
+    padding-left: 10px;
+}
+
+.titre2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color: green;
+}
+
+.parag5 p {
+    font-size: 15px;
+    float: left;
+    font-weight: bolder;
+    padding-left: 7px;
+}
+
+
+/* ----page connexion ---- */
+
+.menuAdmin {
+    margin: 0;
+    padding: 0;
+    width: 19%;
+    background-color: #3a3a3a;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.menuAdmin .imgUser {
+    color: white;
+}
+
+.menuAdmin h6 {
+    color: white !important;
+    padding-left: 73px;
+    margin-top: -17px;
+    padding-bottom: 51px;
+}
+
+.menuAdmin a {
+    display: block;
+    color: white;
+    padding: 4px 13px;
+    text-decoration: none !important;
+    border-bottom: 1px solid #525252;
+}
+
+.menuAdmin a.active {
+    background-color: #4f9838;
+    color: white;
+}
+
+.menuAdmin a:hover:not(.active) {
+    background-color: #4f9838;
+    color: white;
+}
+
+.bloc_connexion {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 450px;
+    margin-right: 15px;
+}
+
+.bloc_connexionAdmin {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 589px;
+    margin-right: 15px;
+}
+
+.bloc_connexionAdmin .logo-a {
+    color: #3e3e3e;
+}
+
+.bloc_connexionAdmin .logo-a span {
+    color: rgb(79, 152, 56);
+}
+
+
+/* ----page inscription---- */
+
+.formulaire {
+    /* background-color: #f2f2f2; */
+    width: 100%;
+    height: 720px;
+}
+
+.formulaire p {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 13px;
+    padding-right: 30px;
+}
+
+
+/* ----page commmande ------*/
+
+.commande td {
+    padding-bottom: 6px;
+    padding-top: 30px;
+}
+
+.conBloc {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px 0px #d6d3d3;
+    padding-top: 29px;
+    text-align: center;
+}
+
+.commande {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 1000px;
+}
+
+.commandeConf {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 500px;
+}
+
+.blocMaC {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 12px 0px #d6d3d3;
+    padding-top: 29px;
+}
+
+.blocInCom {
+    background-color: white;
+    padding-left: 30px !important;
+    height: 375px;
+    margin-left: 19px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 12px 0px #d6d3d3;
+}
+
+.btnCmd {
+    color: white;
+    background-color: #4f9838;
+    border: none;
+    padding: 6px 70px;
+    font-weight: bold;
+}
+
+.btnModPrAd {
+    color: white;
+    background-color: #4f9838;
+    border: none;
+    padding: 6px 119px;
+    font-weight: bold;
+}
+
+.btnModAdminAdm {
+    color: white;
+    background-color: #4f9838;
+    border: none;
+    padding: 6px 120px;
+    font-weight: bold;
+}
+
+.btnCAdminAdm {
+    color: white;
+    background-color: #4f9838;
+    border: none;
+    padding: 6px 132px;
+    font-weight: bold;
+}
+
+.blocContactAdmin form {
+    padding-left: 20%;
+}
+
+.imgInsCmd {
+    padding-top: 5px;
+    border: 1px solid #d6d6d6;
+}
+
+.boutton3 {
+    float: right;
+    margin-right: 140px;
+    font-weight: bolder;
+    font-size: 17px;
+    background-color: white;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #333333;
+    ;
+}
+
+.dtCmd {
+    color: grey;
+    font-size: 13px
+}
+
+.nomCmd {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hCmd {
+    font-size: 20px;
+    border: 1px solid #4f9838;
+    width: 116px;
+    padding: 2px 60px;
+}
+
+.caCmd {
+    font-size: 15px;
+    margin-top: -14px;
+}
+
+.desCmd {
+    font-size: 15px;
+    color: #4c4c4c;
+}
+
+.boutton3:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(88, 186, 58, .75);
+}
+
+
+/* --- page panier---- */
+
+.panier {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 400px;
+}
+
+.tab tr {
+    border: 2px #cccccc solid;
+    height: 40px;
+    width: 500px;
+}
+
+.tab td {
+    border: 2px #cccccc solid;
+    width: 500px;
+    padding-left: 10px;
+}
+
+.espace_admin {
+    font-size: 25px;
+    color: white;
+}
+
+.blocAdminAdmin {
+    margin-left: 23%;
+    margin-right: 4%;
+    height: 636px;
+}
+
+.blocClientAdmin {
+    margin-left: 23%;
+    margin-right: 4%;
+    height: 638px;
+}
+
+.blocAnnonceAdmin {
+    /*  min-height: 108%; */
+    /* height: auto !important; */
+    /* height: 100%; */
+    margin-left: 23%;
+    margin-right: 4%;
+    min-height: 638px;
+}
+
+.blocContactAdmin {
+    /* min-height: 96%; */
+    /* height: auto !important; */
+    /* height: 112%; */
+    margin-left: 23%;
+    margin-right: 4%;
+    height: 636px;
+}
